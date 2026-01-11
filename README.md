@@ -23,3 +23,18 @@ cd docs/
 bun install
 bun run dev
 ```
+
+
+# Op-Amp Performance Summary
+DC Gain:              69.26 dB  (Target: ≥20 dB)
+Input Offset:         0.7   mV  (Target: ≤5 mV)  
+CMRR:                 74.51 dB  (Target: ≥40 dB)
+Input Impedance:      HUGE  MΩ  (Target: ≥1 MΩ)
+Output Impedance:     713    Ω  (Target: ≤1 kΩ)
+Power Consumption:    0.36  mW  (Target: ≤5 mW)
+3dB Bandwidth:        1.57  MHz
+
+GBW Product:          1.2E8 MHz
+
+PASS/FAIL: PASS
+
