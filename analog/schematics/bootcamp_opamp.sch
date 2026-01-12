@@ -71,6 +71,9 @@ N -0 -420 160 -420 {lab=vdd}
 N 250 -70 250 -60 {lab=vss}
 N -0 -70 250 -70 {lab=vss}
 N 250 -70 490 -70 {lab=vss}
+N -30 -210 -20 -210 {lab=vdd}
+N -30 -240 -30 -210 {lab=vdd}
+N -30 -240 -0 -240 {lab=vdd}
 C {sky130_fd_pr/nfet_01v8.sym} 140 -240 0 0 {name=M1
 L=1
 W=10
@@ -85,7 +88,6 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {devices/isource.sym} 0 -210 0 0 {name=I0 value=50u}
 C {sky130_fd_pr/nfet_01v8.sym} 360 -240 0 1 {name=M4
 L=1
 W=10
@@ -189,3 +191,9 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {devices/opin.sym} 500 -260 0 0 {name=vout lab=vout}
+C {sky130_fd_pr/res_high_po_0p35.sym} 0 -210 0 0 {name=R2
+W=0.35
+L=14
+model=res_high_po_0p35
+spiceprefix=X
+mult=1}

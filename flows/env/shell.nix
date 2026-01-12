@@ -29,6 +29,7 @@ let
     # Python deps
     python312Packages.pip
     python312Packages.numpy
+    python312Packages.pandas
     python312Packages.setuptools
     python312Packages.wheel
 
